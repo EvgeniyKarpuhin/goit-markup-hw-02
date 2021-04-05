@@ -21,7 +21,7 @@ body {
     display: flex;
 }
 
-.nav a {
+.nav-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
@@ -41,6 +41,7 @@ body {
     display: flex;
     list-style-type: none;
     margin: 32px 0;
+    padding: 0;
 }
 
 .nav ul a {
@@ -51,5 +52,6 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
