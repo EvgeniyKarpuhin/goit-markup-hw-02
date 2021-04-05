@@ -14,10 +14,11 @@ body {
     top: 0px;
     background: white;
     border-bottom: 1px solid #ECECEC;
+    display: flex;
 }
 
 .nav {
-    margin: 0 215px;
+    margin-left: 215px;
     display: flex;
 }
 
@@ -57,5 +58,9 @@ body {
 
 .head-adress {
     float: right;
+    margin: 32px 215px 32px 331px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
 }
 
