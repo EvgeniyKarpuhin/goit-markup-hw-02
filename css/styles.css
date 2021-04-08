@@ -2,6 +2,22 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #E5E5E5;
     color: black;
+    margin: 0;
+}
+
+p {
+    letter-spacing: 0.03em;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+ul {
+    list-style: none;
 }
 
 .head {
@@ -9,52 +25,36 @@ body {
 }
 
 .nav-logo {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-    text-decoration: none;
 }
 
-.nav a span {
+.nav-logo span {
     color: black;
 }
 
-.nav ul {
-    list-style: none;
-}
-
-.nav ul a {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+.nav-website {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
+   
 }
 
-.nav ul a:hover {
+.nav-website:hover {
     color: #2196F3;
 }
 
-.head-adress {
-    list-style: none;
-}
-
 .head-adress a {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
+  
 }
 
 .main-container {
@@ -67,6 +67,7 @@ body {
 
 .filters-btn {
     background: #F5F4FA;
+    cursor: pointer;
 }
 
 .filters-btn:hover {
@@ -75,28 +76,16 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.project ul {
-    list-style: none;
-}
-
-.project li > h3 {
-
-    font-family: 'Roboto';
-    font-style: normal;
+.project-text {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 
-.project li > p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
+.project-text-p {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -105,14 +94,12 @@ body {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-    text-decoration: none;
+ 
 }
 
 .footer-logo span {
@@ -120,33 +107,26 @@ body {
 }
 
 .footer p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.footer li {
+.head-adress {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    list-style: none;
+ 
 }
 
 .footer ul a {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
 }
