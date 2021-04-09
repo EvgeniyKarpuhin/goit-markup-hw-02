@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: black;
+    margin: 0;
+}
+
+p {
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.head {
+    background: white;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav-logo span {
+    color: black;
+}
+
+.nav-website {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+   
+}
+
+.nav-website:hover {
+    color: #2196F3;
+}
+
+.head-adress a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+  
+}
+
+.main-container {
+    background: white;
+}
+
+.filters {
+    text-align: center;
+}
+
+.filters-btn {
+    background: #F5F4FA;
+    cursor: pointer;
+}
+
+.filters-btn:hover {
+    background: #2196F3;
+    color: white;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.project-text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text-p {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+ 
+}
+
+.footer-logo span {
+    color: white;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+.head-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+ 
+}
+
+.head-adress a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
