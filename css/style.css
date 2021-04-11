@@ -68,6 +68,14 @@ ul {
 .filters-btn {
     background: #F5F4FA;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .filters-btn:hover {
