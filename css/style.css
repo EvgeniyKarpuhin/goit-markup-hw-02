@@ -14,7 +14,7 @@ a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #212121;
 }
 
 ul {
@@ -42,7 +42,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    
 }
 
 .nav-website:hover {
