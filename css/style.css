@@ -58,16 +58,6 @@ ul {
  
 }
 
-.head-adress a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-  
-}
-
 .main-container {
     background: white;
 }
@@ -77,6 +67,7 @@ ul {
 }
 
 .filters-btn {
+    font-family: 'Roboto', sans-serif;
     background: #F5F4FA;
     cursor: pointer;
     border: none;
